@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+  background-color: red;
+}
+
+body {
+  margin-bottom: 50px;
+  background-color: pink;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  background-color: blue;
+}
+
+.content{
+  height: 2000px;
+}

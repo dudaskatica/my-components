@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  min-height: 100vh;
+  position: reative;
+  padding-bottom: 50px;
+  background-color: grey;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width:100vw;
+  background-color: red;
+  padding: 10px;
+}
+
+.content{
+  padding: 10px;
+  background-color: blue;
+  height: 100vw;
+}
