@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card{
+  width: 480px;
+  max-width: calc(100vw-10px);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  margin: 0 auto;
+  width: 90%;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(64, 65, 69, 0.8);
+  padding: 1px;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+.profile-image {
+  margin-top: -60px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.head, .about{
+  margin-bottom: 10%;
+}
+.content{
+  padding: 5% 10%;
+  border-top: 1px solid rgba(64, 65, 69, 0.8);
+}
+body {
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.profile-card{
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+.name-headline, .content, .links{
+  font-family: Verdana;
+  line-height: 1.58;
+}
+.uppercase {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.fa-twitter, .fa-behance-square, .fa-instagram {
+  color: hsla(0, 0%, 0%, .6);  
+}
